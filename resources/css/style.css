@@ -29,12 +29,36 @@ body {
   color: rgb(191, 191, 191);
   border-radius: 19px;
   margin-right: .625rem;
+  cursor: help;
 }
 
 .header .fa-search {
   padding: .5rem;
   border-radius: 19px;
   text-align: center;
-  background-color: rgb(255, 102, 204);
+  background-color: rgb(255, 0, 171);
   color: rgb(35, 2, 63);
+}
+
+.header .fa-search:hover {
+  background-color: rgb(255, 102, 204);
+  cursor: pointer;
+}
+
+.attributes {
+  background-color: rgb(104, 0, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.track {
+  display: flex;
+  padding: .6rem;
+  border-bottom: 1px solid #ccc;
+  line-height: 1;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
 }
